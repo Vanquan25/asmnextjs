@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import Search from './Search'
 
@@ -13,8 +14,8 @@ const Nav = (props: Props) => {
         </a>
         {/* Nav Links */}
         <ul className="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12">
-          <li><a className="hover:text-gray-200" href="">Trang Chủ</a></li>
-          <li><a className="hover:text-gray-200" href="/product">Sản Phẩm</a></li>
+          <li><Link href="/"><a className="hover:text-gray-200" >Trang Chủ</a></Link></li>
+          <li><Link href="/product"><a className="hover:text-gray-200">Sản Phẩm</a></Link></li>
           <li><a className="hover:text-gray-200" href="#">Bài Viết</a></li>
           <li><a className="hover:text-gray-200" href="#">Liên Hệ</a></li>
         </ul>
@@ -37,11 +38,12 @@ const Nav = (props: Props) => {
             </span>
           </a>
           {/* Sign In / Register      */}
-          <a className="flex items-center hover:text-gray-200" href="">
+          <Link href="/signin"><a className="flex items-center hover:text-gray-200">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 hover:text-gray-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
           </a>
+          </Link>
         </div>
       </div>
     </nav>

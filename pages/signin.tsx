@@ -1,4 +1,6 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 import React from 'react'
+import Footer from '../components/Footer'
 
 type Props = {}
 
@@ -52,6 +54,7 @@ const signin = (props: Props) => {
       </div>
     </div>
   </div>
+  <Footer/>
 </div>
   )
 }

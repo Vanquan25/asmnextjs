@@ -10,7 +10,7 @@ const Footer = (props: Props) => {
       <div className="sm:flex sm:items-center sm:justify-between">
         <a href="#" target="_blank" className="flex items-center mb-4 sm:mb-0">
           <img src="https://o.remove.bg/downloads/3000dea6-ac97-4a5f-9c0d-4401f3629d87/mau-logo-tra-sua-dep-va-de-thuong9-removebg-preview.png" className="mr-4 h-8" alt="Flowbite Logo" width={70} height={150}/>
-          <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Nước giải khát</span>
+          <span className="self-center text-xl font-semibold whitespace-nowrap text-white">Nước giải khát</span>
         </a>
         <ul className="flex flex-wrap items-center mb-6 sm:mb-0">
           <li>
