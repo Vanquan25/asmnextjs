@@ -1,4 +1,5 @@
 import React from 'react'
+import LayoutAdmin from '../../components/Layout/admin'
 
 type Props = {}
 
@@ -47,8 +48,8 @@ const dashboard = (props: Props) => {
     </div>
     </main>
   </div>
-
   )
 }
+dashboard.Layout = LayoutAdmin
 
 export default dashboard

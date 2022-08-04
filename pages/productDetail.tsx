@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/Footer'
 
 type Props = {}
 
@@ -81,7 +82,9 @@ const productDetail = (props: Props) => {
     </div>
   </div>
 </section>
+<Footer/>
     </div>
+    
   )
 }
 
