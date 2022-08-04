@@ -1,10 +1,31 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
+import { useRouter } from 'next/router';
 import React from 'react'
+import { useForm } from 'react-hook-form';
 import Footer from '../components/Footer'
+import { useAuth } from '../hook/use-auth';
 
-type Props = {}
+type UserProps = {
+  users: any[];
+}
 
-const signin = (props: Props) => {
+type inputValues={
+  email:string,
+  password:string
+}
+
+const Signin = ({users}: UserProps) => {
+  const router = useRouter ()
+
+  const {data, error, signin} = useAuth();
+  if (error) return <div>Fail to load</div>;
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  const {register, handleSubmit, watch, formState:{errors}} = useForm();
+  function onSubmit(data: any): void {
+      console.log(data);
+      signin(data);
+      router.push('/')
+  }
   return (
     <div className="font-sans">
   <div className="relative min-h-screen flex flex-col sm:justify-center items-center bg-gray-100 ">
@@ -15,12 +36,12 @@ const signin = (props: Props) => {
         <label htmlFor="" className="block mt-3 text-sm text-gray-700 text-center font-semibold">
           Signin
         </label>
-        <form className="mt-10" >
+        <form className="mt-10" onSubmit={handleSubmit(onSubmit)}>
           <div className="mt-7">                
-            <input type="email" placeholder="Email" className="mt-1 block w-full border-none bg-gray-100 h-11 rounded-xl shadow-lg hover:bg-blue-100 focus:bg-blue-100 focus:ring-0" />                           
+            <input type="email" {...register('email')} placeholder="Email" className="mt-1 block w-full border-none bg-gray-100 h-11 rounded-xl shadow-lg hover:bg-blue-100 focus:bg-blue-100 focus:ring-0" />                           
           </div>
           <div className="mt-7">                
-            <input type="password" placeholder="Password" className="mt-1 block w-full border-none bg-gray-100 h-11 rounded-xl shadow-lg hover:bg-blue-100 focus:bg-blue-100 focus:ring-0" />                           
+            <input type="password" {...register('password')} placeholder="Password" className="mt-1 block w-full border-none bg-gray-100 h-11 rounded-xl shadow-lg hover:bg-blue-100 focus:bg-blue-100 focus:ring-0" />                           
           </div>
           <div className="mt-7">
             <button type="submit" className="bg-blue-500 w-full py-3 rounded-xl text-white shadow-xl hover:shadow-inner focus:outline-none transition duration-500 ease-in-out  transform hover:-translate-x hover:scale-105">
@@ -59,4 +80,4 @@ const signin = (props: Props) => {
   )
 }
 
-export default signin
+export default Signin
