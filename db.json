@@ -24,6 +24,12 @@
       "email": "quanlvph1234@gmail.com",
       "password": "123456",
       "id": 4
+    },
+    {
+      "name": "Product C",
+      "email": "minhquan22012@gmail.com",
+      "password": "123456",
+      "id": 5
     }
   ]
 }
