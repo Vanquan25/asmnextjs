@@ -1,5 +1,70 @@
 {
-  "products": [],
+  "products": [
+    {
+      "id": 1,
+      "name": "Nước ép táo",
+      "price": "132133555",
+      "img": "abc",
+      "status": "Còn hàng",
+      "desc": ""
+    },
+    {
+      "id": 2,
+      "name": "Nước ép táo",
+      "price": "132133555",
+      "img": "abc",
+      "status": "Còn hàng",
+      "desc": ""
+    },
+    {
+      "id": 3,
+      "name": "Nước ép táo",
+      "price": "132133555",
+      "img": "abc",
+      "status": "Còn hàng",
+      "desc": ""
+    },
+    {
+      "id": 4,
+      "name": "Nước ép táo",
+      "price": "132133555",
+      "img": "abc",
+      "status": "Còn hàng",
+      "desc": ""
+    },
+    {
+      "id": 5,
+      "name": "Nước ép táo",
+      "price": "132133555",
+      "img": "abc",
+      "status": "Còn hàng",
+      "desc": ""
+    },
+    {
+      "id": 6,
+      "name": "Nước ép táo",
+      "price": "132133555",
+      "img": "abc",
+      "status": "Còn hàng",
+      "desc": ""
+    },
+    {
+      "id": 7,
+      "name": "Nước ép táo",
+      "price": "132133555",
+      "img": "abc",
+      "status": "Còn hàng",
+      "desc": ""
+    },
+    {
+      "id": 8,
+      "name": "Nước ép táo",
+      "price": "132133555",
+      "img": "abc",
+      "status": "Còn hàng",
+      "desc": ""
+    }
+  ],
   "users": [
     {
       "name": "Product AA",
