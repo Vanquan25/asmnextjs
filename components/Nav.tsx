@@ -9,7 +9,7 @@ const Nav = (props: Props) => {
       <div className="px-5 xl:px-12 py-6 flex w-full items-center">
         <a className="text-3xl font-bold font-heading" href="#">
           {/* <img class="h-9" src="logo.png" alt="logo"> */}
-          <img src="https://o.remove.bg/downloads/3000dea6-ac97-4a5f-9c0d-4401f3629d87/mau-logo-tra-sua-dep-va-de-thuong9-removebg-preview.png" alt="" width={150} height={150}/>
+          <img src="https://o.remove.bg/downloads/6bb469dc-fe43-45a3-b691-2446567f26e1/mau-logo-tra-sua-dep-va-de-thuong9-removebg-preview.png" alt="" width={150} height={150}/>
         </a>
         {/* Nav Links */}
         <ul className="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12">
