@@ -1,4 +1,29 @@
 {
-    "products": [],
-    "users": []
+  "products": [],
+  "users": [
+    {
+      "name": "Product AA",
+      "email": "minhquan22012@gmail.com",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "name": "abcd",
+      "email": "quanlvph17984@gmail.com",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "name": "abcd",
+      "email": "quanlvph17984@gmail.com",
+      "password": "123456",
+      "id": 3
+    },
+    {
+      "name": "abcd",
+      "email": "quanlvph1234@gmail.com",
+      "password": "123456",
+      "id": 4
+    }
+  ]
 }
