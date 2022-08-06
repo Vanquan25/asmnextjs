@@ -15,7 +15,7 @@ const listProduct = ({ products }: ProductsProps) => {
 
   return (
     <div>
-      <h2 className='text-red-400'>Danh sách sản phẩm</h2>
+      <h2 className='text-red-400 items-center'>Danh sách sản phẩm</h2>
       <a href="product/create">  <button className='bg-sky-300 border'>Thêm mới</button></a>
       <div className="flex flex-col ">
         <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
