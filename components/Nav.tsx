@@ -11,7 +11,7 @@ const Nav = (props: Props) => {
         <a className="text-3xl font-bold font-heading" href="#">
           {/* <img class="h-9" src="logo.png" alt="logo"> */}
 
-          <img src="https://o.remove.bg/downloads/6bb469dc-fe43-45a3-b691-2446567f26e1/mau-logo-tra-sua-dep-va-de-thuong9-removebg-preview.png" alt="" width={150} height={150}/>
+          {/* <img src="https://o.remove.bg/downloads/6bb469dc-fe43-45a3-b691-2446567f26e1/mau-logo-tra-sua-dep-va-de-thuong9-removebg-preview.png" alt="" width={150} height={150}/> */}
          
         </a>
         {/* Nav Links */}
