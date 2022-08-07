@@ -26,7 +26,7 @@ const dashboard = (props: Props) => {
           <div className="text-sm">
             <div className="bg-gray-900 text-white p-5 rounded cursor-pointer">Teams in space</div>
             <div className="bg-gray-900 text-white p-2 rounded mt-2 cursor-pointer hover:bg-gray-700 hover:text-blue-300">Backlog</div>
-            <div className="bg-gray-700 text-blue-300 p-2 rounded mt-2 cursor-pointer"><a href="/admin">Board</a></div>
+            <div className="bg-gray-700 text-blue-300 p-2 rounded mt-2 cursor-pointer"><a href="">Board</a></div>
             <div className="bg-gray-900 flex justify-between items-center text-white p-2 rounded mt-2 cursor-pointer hover:bg-gray-700 hover:text-blue-300">
               <span>Reports</span>
               <span className="w-4 h-4 bg-blue-600 rounded-full text-white text-center font-normal text-xs">5</span>

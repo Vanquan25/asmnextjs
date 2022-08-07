@@ -16,7 +16,7 @@ const listProduct = ({ products }: ProductsProps) => {
   return (
     <div>
       <h2 className='text-red-400 items-center'>Danh sách sản phẩm</h2>
-      <a href="product/create">  <button className='bg-sky-300 border'>Thêm mới</button></a>
+      <a href="products/create"><button className='bg-sky-300 border'>Thêm mới</button></a>
       <div className="flex flex-col ">
         <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
           <div className="py-2 inline-block min-w-full sm:px-6 lg:px-8 ">
@@ -68,13 +68,9 @@ const listProduct = ({ products }: ProductsProps) => {
                       </td>
                       <td className='border '>
                         <button className='bg-red-300 px-2 py-2 text-center border' onClick={() => remove(item.id)}>Delete</button>
-                        <button className="bg-blue-300 px-2 py-2 text-center border "> <Link href={`product/${item.id}`}>Edit</Link></button>
-
-
+                        <button className="bg-blue-300 px-2 py-2 text-center border "><Link href={`products/${item.id}`}>Edit</Link></button>
                       </td>
-
                     </tr>
-
                   ))}
                 </tbody>
               </table>

@@ -35,27 +35,27 @@ const creatProducts = ({ products }: ProductsProps) => {
             <h2>Thêm sản phẩm</h2>
             <form id="form-add-pro" onSubmit={handleSubmit(onhandleSubmit)}>
                 <div className="mb-3">
-                    <label className="uppercase md:text-sm text-xs text-gray-500 text-gray-600 font-semibold mb-1">Tên sản phẩm<span className="text-red-500">*</span></label><br />
+                    <label className="uppercase md:text-sm text-xs text-gray-500  font-semibold mb-1">Tên sản phẩm<span className="text-red-500">*</span></label><br />
                     <input type="text" {...register('name')} className="border border-gray-300 p-2 w-full" id="name" />
                 </div>
 
                 <div className="mb-3 grid grid-cols-2 gap-6">
                     <div>
-                        <label className="uppercase md:text-sm text-xs text-gray-500 text-gray-600 font-semibold mb-1">Giá tiền<span className="text-red-500">*</span></label><br />
+                        <label className="uppercase md:text-sm text-xs text-gray-500  font-semibold mb-1">Giá tiền<span className="text-red-500">*</span></label><br />
                         <input type="number" {...register('price')} className="border border-gray-300 p-2 w-full" id="price" />
                     </div>
                     {/* ... */}
                     <div>
-                        <label className="uppercase md:text-sm text-xs text-gray-500 text-gray-600 font-semibold mb-1">Trạng thái<span className="text-red-500">*</span></label><br />
+                        <label className="uppercase md:text-sm text-xs text-gray-500  font-semibold mb-1">Trạng thái<span className="text-red-500">*</span></label><br />
                         <input type="string" {...register('status')} className="border border-gray-300 p-2 w-full" id="quantity" />
                     </div>
                 </div>
                 <div className="mb-3">
-                    <label className="uppercase md:text-sm text-xs text-gray-500 text-gray-600 font-semibold mb-1">Mô tả<span className="text-red-500">*</span></label><br />
+                    <label className="uppercase md:text-sm text-xs text-gray-500  font-semibold mb-1">Mô tả<span className="text-red-500">*</span></label><br />
                     <textarea {...register('desc')} className="w-full sec p-3 h-60 border border-gray-300 " id="desc" placeholder="Mô tả sản phẩm" defaultValue={""} />
                 </div>
                 <div className="mb-3">
-                    <label className="uppercase md:text-sm text-xs text-gray-500 text-gray-600 font-semibold mb-1">Upload Photo<span className="text-red-500">*</span></label><br />
+                    <label className="uppercase md:text-sm text-xs text-gray-500  font-semibold mb-1">Upload Photo<span className="text-red-500">*</span></label><br />
                     <input type="string" {...register('img')} className="w-full sec p-3 h-30 border border-gray-300 " id="desc" placeholder="Upload ảnh" />
                 </div>
 
@@ -64,7 +64,7 @@ const creatProducts = ({ products }: ProductsProps) => {
                 </div>
                 <div className="mb-3">
                     <div className="grid grid-cols-1">
-                        <label className="uppercase md:text-sm text-xs text-gray-500 text-gray-600 font-semibold mb-1">Upload Photo</label>
+                        <label className="uppercase md:text-sm text-xs text-gray-500  font-semibold mb-1">Upload Photo</label>
                         <div className="flex items-center justify-center w-full">
                             <label className="flex flex-col border-4 border-dashed w-full h-32 hover:bg-gray-100 hover:border-orange-300 group">
                                 <div className="flex flex-col items-center justify-center pt-7">
