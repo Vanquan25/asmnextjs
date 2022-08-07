@@ -54,7 +54,7 @@ const dashboard = ({ products }: ProductsProps) => {
       <div className="w-full divide-y divide-gray-200">
       <div>
       <h2 className='text-red-400 items-center'>Danh sách sản phẩm</h2>
-      <a href="/create">  <button className='bg-sky-300 border'>Thêm mới</button></a>
+      <a href="create">  <button className='bg-sky-300 border'>Thêm mới</button></a>
       <div className="flex flex-col ">
         <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
           <div className="py-2 inline-block min-w-full sm:px-6 lg:px-8 ">

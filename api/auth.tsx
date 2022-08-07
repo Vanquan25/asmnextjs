@@ -1,8 +1,11 @@
 import instance from "./instance";
 
-export const signup = (user: any) => {
-    return instance.post("/users",user);
+export const signup =(user: any) => {
+    const url = `signup`;
+    return instance.post(url, user);
 }
-export const signin = (user: any) => {
-    return instance.get("/users",user);
+
+export const signin =(user: any) => {
+    const url = `signin`;
+    return instance.post(url, user);
 }
