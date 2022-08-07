@@ -8,10 +8,10 @@ const Nav = (props: Props) => {
     return (
       <nav className="flex justify-between bg-gray-900 text-white w-screen">
       <div className="px-5 xl:px-12 py-6 flex w-full items-center">
-        <a className="text-3xl font-bold font-heading" href="#">
+        <a className="text-3xl font-bold font-heading" href="">
           {/* <img class="h-9" src="logo.png" alt="logo"> */}
 
-          {/* <img src="https://o.remove.bg/downloads/6bb469dc-fe43-45a3-b691-2446567f26e1/mau-logo-tra-sua-dep-va-de-thuong9-removebg-preview.png" alt="" width={150} height={150}/> */}
+          <img src="https://res.cloudinary.com/dwuuepofz/image/upload/v1659873413/mau-logo-tra-sua-dep-va-de-thuong9-removebg-preview_attg1c.png" alt="" width={150} height={150}/>
          
         </a>
         {/* Nav Links */}

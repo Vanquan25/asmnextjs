@@ -1,4 +1,4 @@
-import useProducts from '../../../hook/use-product';
+import useProducts from '../../hook/use-product';
 import { useRouter } from 'next/router';
 import React from 'react'
 import { useForm } from 'react-hook-form';
@@ -28,7 +28,7 @@ const creatProducts = ({ products }: ProductsProps) => {
     const onhandleSubmit = (data: any) => {
         create(data);
         alert('Thêm nhật thành công')
-        router.push('/admin/dashboard')
+        router.push('/admin')
     }
     return (
         <div className="bg-white">
