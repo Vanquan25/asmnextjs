@@ -1,52 +1,60 @@
 {
-    "products": [
-      {
-        "id": 3,
-        "name": "Product C",
-        "price": "$ 7.00",
-        "img": "https://picsum.photos/1600/900"
-      },
-      {
-        "id": 4,
-        "name": "Product D",
-        "price": "$ 8.00",
-        "img": "https://picsum.photos/1600/900"
-      },
-      {
-        "id": 5,
-        "name": "Product E",
-        "price": "$ 9.00",
-        "img": "https://picsum.photos/1600/900"
-      },
-      {
-        "id": 6,
-        "name": "Product F",
-        "price": "$ 4.00",
-        "img": "https://picsum.photos/1600/900"
-      },
-      {
-        "id": 7,
-        "name": "Product G",
-        "price": "$ 8.00",
-        "img": "https://picsum.photos/1600/900"
-      },
-      {
-        "id": 8,
-        "name": "Product H",
-        "price": "$ 7.00",
-        "img": "https://picsum.photos/1600/900"
-      },
-      {
-        "name": "Product J",
-        "price": "$ 5.00",
-        "img": "https://picsum.photos/1600/900",
-        "id": 9
-      },
-      {
-        "name": "Product T",
-        "price": "$ 7.00",
-        "img": "https://picsum.photos/1600/900",
-        "id": 10
-      }
-    ]
-  }
+  "products": [
+    {
+      "id": 3,
+      "name": "Product C",
+      "price": "$ 7.00",
+      "img": "https://picsum.photos/1600/900"
+    },
+    {
+      "id": 4,
+      "name": "Product D",
+      "price": "$ 8.00",
+      "img": "https://picsum.photos/1600/900"
+    },
+    {
+      "id": 5,
+      "name": "Product E",
+      "price": "$ 9.00",
+      "img": "https://picsum.photos/1600/900"
+    },
+    {
+      "id": 6,
+      "name": "Product F",
+      "price": "$ 4.00",
+      "img": "https://picsum.photos/1600/900"
+    },
+    {
+      "id": 7,
+      "name": "Product G",
+      "price": "$ 8.00",
+      "img": "https://picsum.photos/1600/900"
+    },
+    {
+      "id": 8,
+      "name": "Product H",
+      "price": "$ 7.00",
+      "img": "https://picsum.photos/1600/900"
+    },
+    {
+      "name": "Product J",
+      "price": "$ 5.00",
+      "img": "https://picsum.photos/1600/900",
+      "id": 9
+    },
+    {
+      "name": "Product T",
+      "price": "$ 7.00",
+      "img": "https://picsum.photos/1600/900",
+      "id": 10
+    },
+    {
+      "name": "nước chanh leo",
+      "price": "20000",
+      "status": "còn hàng",
+      "desc": "rất phù hợp với thời tiết nắng nóng của mùa hè , cơ thể mất nước cần bổ sung năng lượng",
+      "img": "https://win-rd.com/wp-content/uploads/2021/06/cach-pha-nuoc-chanh-leo-1-1.jpg",
+      "id": 12
+    }
+  ]
+}
