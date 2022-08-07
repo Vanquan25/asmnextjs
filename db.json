@@ -43,5 +43,12 @@
       "id": 9
     }
   ],
-  "users": []
+  "users": [
+    {
+      "name": "Product C",
+      "email": "minhquan22012@gmail.com",
+      "password": "123456",
+      "id": 1
+    }
+  ]
 }
