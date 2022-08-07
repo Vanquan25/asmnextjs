@@ -72,6 +72,10 @@ const layout = (props: Props) => {
                     <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                         @mdo
                     </td>
+                    <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mx-2 rounded">Sửa</button>
+                    <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 mx-2 rounded">Xóa</button>
+                    </td>
                     </tr>
                 </tbody>
                 </table>
