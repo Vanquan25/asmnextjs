@@ -9,7 +9,7 @@ const Footer = (props: Props) => {
     <footer className="p-4  bg-gray-900 rounded-lg shadow md:px-6 md:py-8 ">
       <div className="sm:flex sm:items-center sm:justify-between">
         <a href="/" target="_blank" className="flex items-center mb-4 sm:mb-0">
-          <img src="https://res.cloudinary.com/dwuuepofz/image/upload/v1659873413/mau-logo-tra-sua-dep-va-de-thuong9-removebg-preview_attg1c.png" className="mr-4 h-8" alt="Flowbite Logo"/>
+          <p className='text-white bold text-2xl decoration-dotted'>Infinity Tea</p>
         </a>
         <ul className="flex flex-wrap items-center mb-6 sm:mb-0">
           <li>

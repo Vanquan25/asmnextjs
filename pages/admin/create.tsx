@@ -28,11 +28,11 @@ const creatProducts = ({ products }: ProductsProps) => {
     const onhandleSubmit = (data: any) => {
         create(data);
         alert('Thêm nhật thành công')
-        router.push('/admin')
+        router.push('/admin/dashboard')
     }
     return (
         <div className="bg-white">
-            <h2>Thêm sản phẩm</h2>
+            
             <form id="form-add-pro" onSubmit={handleSubmit(onhandleSubmit)}>
                 <div className="mb-3">
                     <label className="uppercase md:text-sm text-xs text-gray-500 text-gray-600 font-semibold mb-1">Tên sản phẩm<span className="text-red-500">*</span></label><br />
@@ -77,8 +77,8 @@ const creatProducts = ({ products }: ProductsProps) => {
                     </div>
                 </div> */}
                 <div className="flex items-center justify-center  md:gap-8 gap-4 pt-5 pb-5">
-                    <button className="w-auto bg-gray-500 hover:bg-gray-700 rounded-lg shadow-xl font-medium text-white px-4 py-2">Cancel</button>
-                    <button className="w-auto bg-orange-700 hover:bg-orange-500 rounded-lg shadow-xl font-medium text-white px-4 py-2">Create</button>
+                    <button className="w-auto bg-gray-500 hover:bg-gray-700 rounded-lg shadow-xl font-medium text-white px-4 py-2">Hủy</button>
+                    <button className="w-auto bg-red-600 hover:bg-blue-500 rounded-lg shadow-xl font-medium text-white px-4 py-2">Thêm mới</button>
                 </div>
             </form>
         </div>

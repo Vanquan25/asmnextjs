@@ -33,11 +33,10 @@ const dashboard = ({ products }: ProductsProps) => {
         <div className="flex flex-col justify-between h-screen p-4 bg-gray-800">
           <div className="text-sm">
             <div className="bg-gray-900 text-white p-5 rounded cursor-pointer">Teams in space</div>
-            <div className="bg-gray-900 text-white p-2 rounded mt-2 cursor-pointer hover:bg-gray-700 hover:text-blue-300">Backlog</div>
-            <div className="bg-gray-700 text-blue-300 p-2 rounded mt-2 cursor-pointer"><a href="">Board</a></div>
+            <div className="bg-gray-900 text-white p-2 rounded mt-2 cursor-pointer hover:bg-gray-700 hover:text-blue-300">Users</div>
+            <div className="bg-gray-700 text-white p-2 rounded mt-2 cursor-pointer hover:bg-gray-700 hover:text-blue-300"><a href="">Products</a></div>
             <div className="bg-gray-900 flex justify-between items-center text-white p-2 rounded mt-2 cursor-pointer hover:bg-gray-700 hover:text-blue-300">
-              <span>Reports</span>
-              <span className="w-4 h-4 bg-blue-600 rounded-full text-white text-center font-normal text-xs">5</span>
+              <span>Category</span>
             </div>
             <div className="bg-gray-900 text-white p-2 rounded mt-2 cursor-pointer hover:bg-gray-700 hover:text-blue-300">Releases</div>
             <div className="bg-gray-900 text-white p-2 rounded mt-2 cursor-pointer hover:bg-gray-700 hover:text-blue-300">Components</div>
@@ -53,8 +52,8 @@ const dashboard = ({ products }: ProductsProps) => {
       </aside>
       <div className="w-full divide-y divide-gray-200">
       <div>
-      <h2 className='text-red-400 items-center'>Danh sách sản phẩm</h2>
-      <a href="/create">  <button className='bg-sky-300 border'>Thêm mới</button></a>
+      <a href="create">  
+      <button className='bg-sky-300 my-2 rounded-lg hover:bg-green-600 text-white'>Thêm mới</button></a>
       <div className="flex flex-col ">
         <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
           <div className="py-2 inline-block min-w-full sm:px-6 lg:px-8 ">
@@ -105,8 +104,8 @@ const dashboard = ({ products }: ProductsProps) => {
                         {item.status}
                       </td>
                       <td className='border '>
-                        <button className='bg-red-300 px-2 py-2 text-center border' onClick={() => remove(item.id)}>Delete</button>
-                        <button className="bg-blue-300 px-2 py-2 text-center border "> <Link href={`product/${item.id}`}>Edit</Link></button>
+                        <button className='bg-yellow-600 px-2 py-2 text-center rounded-full hover:bg-red-600 text-white mx-2' onClick={() => remove(item.id)}>Delete</button>
+                        <button className="bg-blue-900 px-2 py-2 text-center rounded-full hover:bg-violet-600 text-white "> <Link href={`product/${item.id}`}>Edit</Link></button>
 
 
                       </td>

@@ -1,46 +1,44 @@
 {
   "products": [
     {
-      "id": 3,
-      "name": "Product C",
-      "price": "$ 7.00",
-      "img": "https://picsum.photos/1600/900"
+      "name": "trà sữa chân trâu",
+      "price": "25000",
+      "status": "còn hàng",
+      "desc": "chân trâu cùng vị sữa béo ngậy ",
+      "img": "https://www.chuphinhsanpham.vn/wp-content/uploads/2017/08/chup-anh-tra-sua-concept-dep-2020_0002.jpg",
+      "id": 1
     },
     {
-      "id": 4,
-      "name": "Product D",
-      "price": "$ 8.00",
-      "img": "https://picsum.photos/1600/900"
+      "name": "trà đào ",
+      "price": "20000",
+      "status": "còn hàng",
+      "desc": "vị đào tươi mát",
+      "img": "https://vietblend.vn/wp-content/uploads/2016/10/vb.web-tra-dao.jpg",
+      "id": 2
     },
     {
-      "id": 5,
-      "name": "Product E",
-      "price": "$ 9.00",
-      "img": "https://picsum.photos/1600/900"
+      "name": "bạc xỉu",
+      "price": "40000",
+      "status": "còn hàng",
+      "desc": "vị ngọt thanh mát khiến người thưởng thức vải say mê",
+      "img": "https://cdn.tgdd.vn/2021/03/CookProduct/Bac-xiu-la-gi-nguon-goc-va-cach-lam-bac-xiu-thom-ngon-don-gian-tai-nha-0-1200x676.jpg",
+      "id": 3
     },
     {
-      "id": 6,
-      "name": "Product F",
-      "price": "$ 4.00",
-      "img": "https://picsum.photos/1600/900"
+      "name": "Sinh tố nha đam",
+      "price": "15000",
+      "status": "hết hàng",
+      "desc": "nha đam giúp thanh lọc cơ thể , xua tan mệt mỏi vào những ngày hè nóng nực ",
+      "img": "https://media.phunutoday.vn/files/nguyenai/2017/07/28/bat-mi-cong-thuc-lam-sinh-to-dua-bo-tai-nha1-1859-phunutoday.jpg",
+      "id": 4
     },
     {
-      "id": 7,
-      "name": "Product G",
-      "price": "$ 8.00",
-      "img": "https://picsum.photos/1600/900"
-    },
-    {
-      "id": 8,
-      "name": "Product H",
-      "price": "$ 7.00",
-      "img": "https://picsum.photos/1600/900"
-    },
-    {
-      "name": "Product J",
-      "price": "$ 5.00",
-      "img": "https://picsum.photos/1600/900",
-      "id": 9
+      "name": "Chà tranh",
+      "price": "20000",
+      "status": "còn hàng",
+      "desc": "chà tranh truyền thống không xa lạ gì đối với các vị khách nghiện đồ uống",
+      "img": "https://lacdavang.com/wp-content/uploads/2020/06/trc-1-.jpg",
+      "id": 5
     }
   ],
   "users": [
