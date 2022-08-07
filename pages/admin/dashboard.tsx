@@ -1,9 +1,17 @@
 import React from 'react'
 import LayoutAdmin from '../../components/Layout/admin'
+import useProducts from '../../hook/use-product';
+import Link from 'next/link';
 
-type Props = {}
+type ProductsProps = {
+  products: any[];
+}
 
-const dashboard = (props: Props) => {
+const dashboard = ({ products }: ProductsProps) => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  const { data, error, remove } = useProducts();
+  if (error) return <div>failed to load</div>;
+  if (!data) return <div>loading...</div>;
   return (
     <div>
     <header className="w-full bg-gray-800 p-4 flex justify-between items-center">
@@ -26,7 +34,7 @@ const dashboard = (props: Props) => {
           <div className="text-sm">
             <div className="bg-gray-900 text-white p-5 rounded cursor-pointer">Teams in space</div>
             <div className="bg-gray-900 text-white p-2 rounded mt-2 cursor-pointer hover:bg-gray-700 hover:text-blue-300">Backlog</div>
-            <div className="bg-gray-700 text-blue-300 p-2 rounded mt-2 cursor-pointer"><a href="/admin">Board</a></div>
+            <div className="bg-gray-700 text-blue-300 p-2 rounded mt-2 cursor-pointer"><a href="">Board</a></div>
             <div className="bg-gray-900 flex justify-between items-center text-white p-2 rounded mt-2 cursor-pointer hover:bg-gray-700 hover:text-blue-300">
               <span>Reports</span>
               <span className="w-4 h-4 bg-blue-600 rounded-full text-white text-center font-normal text-xs">5</span>
@@ -44,7 +52,75 @@ const dashboard = (props: Props) => {
         </div>
       </aside>
       <div className="w-full divide-y divide-gray-200">
-    
+      <div>
+      <h2 className='text-red-400 items-center'>Danh sách sản phẩm</h2>
+      <a href="products/create">  <button className='bg-sky-300 border'>Thêm mới</button></a>
+      <div className="flex flex-col ">
+        <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
+          <div className="py-2 inline-block min-w-full sm:px-6 lg:px-8 ">
+            <div className="overflow-hidden">
+              <table className="min-w-full ">
+                <thead className="">
+                  <tr>
+                    <th scope="col" className="text-base font-medium text-gray-900 px-6 py-4 text-left border">
+                      Id
+                    </th>
+                    <th scope="col" className="text-base font-medium text-gray-900 px-6 py-4 text-left border">
+                      Name
+                    </th>
+                    <th scope="col" className="text-base font-medium text-gray-900 px-6 py-4 text-left border">
+                      Price
+                    </th>
+                    <th scope="col" className=" text-base text-center  font-medium text-gray-900 px-6 py-4 text-left border ">
+                      Image
+                    </th>
+                    <th scope="col" className=" text-base text-center  font-medium text-gray-900 px-6 py-4 text-left border ">
+                      Mô tả
+                    </th>
+                    <th scope="col" className="text-base font-medium text-gray-900 px-6 py-4 text-left border">
+                      Trạng thái
+                    </th>
+                    <th scope="col" className="text-base font-medium text-gray-900 px-6 py-4 text-left border">
+                      Chức năng
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {data.map((item: any, index: any) => (
+                    <tr key={index} className="border-solid	">
+                      <td className=" px-6 py-4 whitespace-nowrap text-base font-medium text-gray-900 border" >{item.id}</td>
+                      <td className="text-base text-gray-900 font-light px-6 py-4 whitespace-nowrap border">
+                        {item.name}
+                      </td>
+                      <td className="text-base text-gray-900 font-light px-6 py-4 whitespace-nowrap border">
+                        {item.price}
+                      </td>
+                      <td className="text-base text-gray-900 font-light px-6 py-4 whitespace-nowrap border ">
+                        <img src={item.img} alt="" width="120px" />
+                      </td>
+                      <td className="text-base text-gray-900 font-light px-6 py-4 whitespace-nowrap border">
+                        {item.desc}
+                      </td>
+                      <td className="text-base text-gray-900 font-light px-6 py-4 whitespace-nowrap border">
+                        {item.status}
+                      </td>
+                      <td className='border '>
+                        <button className='bg-red-300 px-2 py-2 text-center border' onClick={() => remove(item.id)}>Delete</button>
+                        <button className="bg-blue-300 px-2 py-2 text-center border "> <Link href={`product/${item.id}`}>Edit</Link></button>
+
+
+                      </td>
+
+                    </tr>
+
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
     </div>
     </main>
   </div>

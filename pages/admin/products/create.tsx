@@ -28,7 +28,7 @@ const creatProducts = ({ products }: ProductsProps) => {
     const onhandleSubmit = (data: any) => {
         create(data);
         alert('Thêm nhật thành công')
-        router.push('/admin/product')
+        router.push('/admin/dashboard')
     }
     return (
         <div className="bg-white">
