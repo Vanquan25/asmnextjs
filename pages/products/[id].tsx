@@ -1,9 +1,13 @@
+import { useRouter } from 'next/router'
 import React from 'react'
-import Footer from '../components/Footer'
+import useSWR from 'swr'
+import Footer from '../../components/Footer'
 
 type Props = {}
 
 const productDetail = (props: Props) => {
+
+
   return (
     <div>
         <section className="text-gray-700 body-font overflow-hidden bg-white">
