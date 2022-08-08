@@ -12,7 +12,7 @@ const Nav = (props: Props) => {
         <a className="text-3xl font-bold font-heading" href="">
           {/* <img class="h-9" src="logo.png" alt="logo"> */}
 
-          <img src="https://res.cloudinary.com/dwuuepofz/image/upload/v1659873413/mau-logo-tra-sua-dep-va-de-thuong9-removebg-preview_attg1c.png" alt="" width={150} height={150}/>
+          <img src="https://res.cloudinary.com/dwuuepofz/image/upload/v1659873413/mau-logo-tra-sua-dep-va-de-thuong9-removebg-preview_attg1c.png" alt="" width={200} height={200}/>
          
         </a>
         {/* Nav Links */}
