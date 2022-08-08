@@ -53,14 +53,15 @@ const productDetail = (props: Props) => {
         <p className="leading-relaxed">vị đào tươi mát</p>
         <div className="flex mt-6 items-center pb-5 border-b-2 border-gray-200 mb-5">
           <div className="flex ml-6 items-center">
-            <span className="mr-3">Size</span>
+            <span className="mr-3">Số lượng</span>
             <div className="relative">
               <select className="rounded border appearance-none border-gray-400 py-2 focus:outline-none focus:border-red-500 text-base pl-3 pr-10">
-                <option>SM</option>
-                <option>M</option>
-                <option>L</option>
-                <option>XL</option>
+                <option>1</option>
+                <option>5</option>
+                <option>10</option>
+                
               </select>
+              
               <span className="absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center">
                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4" viewBox="0 0 24 24">
                   <path d="M6 9l6 6 6-6" />
@@ -68,6 +69,9 @@ const productDetail = (props: Props) => {
               </span>
             </div>
           </div>
+          <div className=''>
+              <input type="number" placeholder='nhập với số lượng nhiều hơn'/>
+              </div>
         </div>
         <div className="flex">
           <span className="title-font font-medium text-2xl text-gray-900">25000</span>

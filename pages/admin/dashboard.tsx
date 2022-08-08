@@ -104,8 +104,8 @@ const dashboard = ({ products }: ProductsProps) => {
                         {item.status}
                       </td>
                       <td className='border '>
-                        <button className='bg-yellow-600 px-2 py-2 text-center rounded-full hover:bg-red-600 text-white mx-2' onClick={() => remove(item.id)}>Delete</button>
-                        <button className="bg-blue-900 px-2 py-2 text-center rounded-full hover:bg-violet-600 text-white "> <Link href={`product/${item.id}`}>Edit</Link></button>
+                        <button className='bg-yellow-600 px-2 py-2 text-center rounded-full hover:bg-red-600 text-white mx-4' onClick={() => remove(item.id)}>Delete</button>
+                        <button className="bg-blue-900 px-2 py-2 text-center rounded-full hover:bg-violet-600 text-white mx-6 "> <Link href={`product/${item.id}`}>Edit</Link></button>
 
 
                       </td>
