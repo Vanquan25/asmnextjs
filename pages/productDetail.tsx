@@ -12,7 +12,7 @@ const productDetail = (props: Props) => {
       <img alt="ecommerce" className="lg:w-1/2 w-full object-cover object-center rounded border border-gray-200 hover:scale-110 transition duration-300 ease-in-out" src={`https://res.cloudinary.com/dixysmopg/image/upload/v1648828658/4_gjmyxe.jpg`} />
       <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
         <h2 className="text-sm title-font text-gray-500 tracking-widest">BRAND NAME</h2>
-        <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">Name</h1>
+        <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">trà đào</h1>
         <div className="flex mb-4">
           <span className="flex items-center">
             <svg fill="currentColor" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 text-red-500" viewBox="0 0 24 24">
@@ -50,7 +50,7 @@ const productDetail = (props: Props) => {
             </a>
           </span>
         </div>
-        <p className="leading-relaxed">Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage brooklyn. Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle pour-over, neutra jean shorts keytar banjo tattooed umami cardigan.</p>
+        <p className="leading-relaxed">vị đào tươi mát</p>
         <div className="flex mt-6 items-center pb-5 border-b-2 border-gray-200 mb-5">
           <div className="flex ml-6 items-center">
             <span className="mr-3">Size</span>
@@ -70,7 +70,7 @@ const productDetail = (props: Props) => {
           </div>
         </div>
         <div className="flex">
-          <span className="title-font font-medium text-2xl text-gray-900">200$</span>
+          <span className="title-font font-medium text-2xl text-gray-900">25000</span>
           <button className="flex ml-auto text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded">Button</button>
           <button className="rounded-full w-10 h-10 bg-gray-200 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4">
             <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-5 h-5" viewBox="0 0 24 24">
