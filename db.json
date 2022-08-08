@@ -1,19 +1,19 @@
 {
   "products": [
     {
-      "name": "trà sữa chân trâu",
+      "name": "trà đào",
       "price": "25000",
       "status": "còn hàng",
-      "desc": "chân trâu cùng vị sữa béo ngậy ",
-      "img": "https://www.chuphinhsanpham.vn/wp-content/uploads/2017/08/chup-anh-tra-sua-concept-dep-2020_0002.jpg",
+      "desc": "vị đào tươi mát ",
+      "img": "https://res.cloudinary.com/dixysmopg/image/upload/v1648828658/4_gjmyxe.jpg",
       "id": 1
     },
     {
-      "name": "trà đào ",
+      "name": "trà sữa ",
       "price": "20000",
       "status": "còn hàng",
-      "desc": "vị đào tươi mát",
-      "img": "https://vietblend.vn/wp-content/uploads/2016/10/vb.web-tra-dao.jpg",
+      "desc": "vị trà thơm béo ngậy cùng vị sữa tươi",
+      "img": "https://res.cloudinary.com/dixysmopg/image/upload/v1659668318/hinh-anh-tra-sua-dep_iwmtbz.jpg",
       "id": 2
     },
     {
@@ -25,20 +25,76 @@
       "id": 3
     },
     {
-      "name": "Sinh tố nha đam",
+      "name": "Coffee sữa",
       "price": "15000",
       "status": "hết hàng",
-      "desc": "nha đam giúp thanh lọc cơ thể , xua tan mệt mỏi vào những ngày hè nóng nực ",
-      "img": "https://media.phunutoday.vn/files/nguyenai/2017/07/28/bat-mi-cong-thuc-lam-sinh-to-dua-bo-tai-nha1-1859-phunutoday.jpg",
+      "desc": "từ những hạt cà phê nguyên chất cùng với sữa tươi tạo nên ly cà phê sữa thơm ngon béo ngậy ",
+      "img": "https://bonjourcoffee.vn/blog/wp-content/uploads/2020/01/cafe-latte.jpg",
       "id": 4
     },
     {
-      "name": "Chà tranh",
+      "name": "Trà sữa đường đen",
       "price": "20000",
       "status": "còn hàng",
-      "desc": "chà tranh truyền thống không xa lạ gì đối với các vị khách nghiện đồ uống",
-      "img": "https://lacdavang.com/wp-content/uploads/2020/06/trc-1-.jpg",
+      "desc": "vị trà thơm béo ngậy cùng vị sữa tươi",
+      "img": "https://res.cloudinary.com/dixysmopg/image/upload/v1659668317/images_s3puwq.jpg",
       "id": 5
+    },
+    {
+      "name": "Trà Táo",
+      "price": "50",
+      "status": "1",
+      "desc": "thơm mát từ trà xanh hòa quyện cùng vị táo tươi tạo nên hương vị thơm ngon",
+      "img": "https://res.cloudinary.com/dixysmopg/image/upload/v1648828658/5_quedos.jpg",
+      "id": 6
+    },
+    {
+      "name": "Caffee sữa",
+      "price": "15000",
+      "status": "hết hàng",
+      "desc": "từ những hạt cà phê nguyên chất cùng với sữa tươi tạo nên ly cà phê sữa thơm ngon béo ngậy ",
+      "img": "https://bonjourcoffee.vn/blog/wp-content/uploads/2020/01/cafe-latte.jpg",
+      "id": 7
+    },
+    {
+      "name": "Trà sữa đường đen",
+      "price": "20000",
+      "status": "còn hàng",
+      "desc": "vị trà thơm béo ngậy cùng vị sữa tươi",
+      "img": "https://res.cloudinary.com/dixysmopg/image/upload/v1659668317/images_s3puwq.jpg",
+      "id": 8
+    },
+    {
+      "name": "Trà Táo",
+      "price": "50",
+      "status": "1",
+      "desc": "thơm mát từ trà xanh hòa quyện cùng vị táo tươi tạo nên hương vị thơm ngon",
+      "img": "https://res.cloudinary.com/dixysmopg/image/upload/v1648828658/5_quedos.jpg",
+      "id": 9
+    },
+    {
+      "name": "Caffee sữa",
+      "price": "15000",
+      "status": "hết hàng",
+      "desc": "từ những hạt cà phê nguyên chất cùng với sữa tươi tạo nên ly cà phê sữa thơm ngon béo ngậy ",
+      "img": "https://bonjourcoffee.vn/blog/wp-content/uploads/2020/01/cafe-latte.jpg",
+      "id": 10
+    },
+    {
+      "name": "Trà sữa đường đen",
+      "price": "20000",
+      "status": "còn hàng",
+      "desc": "vị trà thơm béo ngậy cùng vị sữa tươi",
+      "img": "https://res.cloudinary.com/dixysmopg/image/upload/v1659668317/images_s3puwq.jpg",
+      "id": 11
+    },
+    {
+      "name": "Trà Táo",
+      "price": "50",
+      "status": "1",
+      "desc": "thơm mát từ trà xanh hòa quyện cùng vị táo tươi tạo nên hương vị thơm ngon",
+      "img": "https://res.cloudinary.com/dixysmopg/image/upload/v1648828658/5_quedos.jpg",
+      "id": 12
     }
   ],
   "users": [
