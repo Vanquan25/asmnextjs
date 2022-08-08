@@ -18,7 +18,7 @@ const Nav = (props: Props) => {
         {/* Nav Links */}
         <ul className="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12">
           <li><Link href="/"><a className="hover:text-gray-200" >Trang Chủ</a></Link></li>
-          <li><Link href="/product"><a className="hover:text-gray-200">Sản Phẩm</a></Link></li>
+          <li><Link href="/product/products"><a className="hover:text-gray-200">Sản Phẩm</a></Link></li>
           <li><a className="hover:text-gray-200" href="#">Bài Viết</a></li>
           <li><a className="hover:text-gray-200" href="#">Liên Hệ</a></li>
         </ul>
