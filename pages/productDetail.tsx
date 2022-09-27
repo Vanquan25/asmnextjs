@@ -8,6 +8,7 @@ const productDetail = (props: Props) => {
     <div>
         <section className="text-gray-700 body-font overflow-hidden bg-white">
   <div className="container px-5 py-24 mx-auto">
+    
     <div className="lg:w-4/5 mx-auto flex flex-wrap">
       <img alt="ecommerce" className="lg:w-1/2 w-full object-cover object-center rounded border border-gray-200 hover:scale-110 transition duration-300 ease-in-out" src={`https://res.cloudinary.com/dixysmopg/image/upload/v1648828658/4_gjmyxe.jpg`} />
       <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">

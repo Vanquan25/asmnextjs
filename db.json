@@ -1,10 +1,10 @@
 {
   "products": [
     {
-      "name": "trà đào",
-      "price": "25000",
+      "name": "trà đào ",
+      "price": "30000",
       "status": "còn hàng",
-      "desc": "vị đào tươi mát ",
+      "desc": "vị đào tươi mát thơm ngon tốt cho sức khỏe",
       "img": "https://res.cloudinary.com/dixysmopg/image/upload/v1648828658/4_gjmyxe.jpg",
       "id": 1
     },
