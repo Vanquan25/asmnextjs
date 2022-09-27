@@ -1,14 +1,6 @@
 {
   "products": [
     {
-      "name": "trà đào",
-      "price": "25000",
-      "status": "còn hàng",
-      "desc": "vị đào tươi mát ",
-      "img": "https://res.cloudinary.com/dixysmopg/image/upload/v1648828658/4_gjmyxe.jpg",
-      "id": 1
-    },
-    {
       "name": "trà sữa ",
       "price": "20000",
       "status": "còn hàng",
@@ -43,7 +35,7 @@
     {
       "name": "Trà Táo",
       "price": "50",
-      "status": "1",
+      "status": "hết hàng",
       "desc": "thơm mát từ trà xanh hòa quyện cùng vị táo tươi tạo nên hương vị thơm ngon",
       "img": "https://res.cloudinary.com/dixysmopg/image/upload/v1648828658/5_quedos.jpg",
       "id": 6
@@ -67,7 +59,7 @@
     {
       "name": "Trà Táo",
       "price": "50",
-      "status": "1",
+      "status": "còn hàng",
       "desc": "thơm mát từ trà xanh hòa quyện cùng vị táo tươi tạo nên hương vị thơm ngon",
       "img": "https://res.cloudinary.com/dixysmopg/image/upload/v1648828658/5_quedos.jpg",
       "id": 9
@@ -91,7 +83,7 @@
     {
       "name": "Trà Táo",
       "price": "50",
-      "status": "1",
+      "status": "hết hàng",
       "desc": "thơm mát từ trà xanh hòa quyện cùng vị táo tươi tạo nên hương vị thơm ngon",
       "img": "https://res.cloudinary.com/dixysmopg/image/upload/v1648828658/5_quedos.jpg",
       "id": 12
@@ -103,6 +95,24 @@
       "email": "minhquan22012@gmail.com",
       "password": "123456",
       "id": 1
+    },
+    {
+      "name": "quan123",
+      "email": "quanlvph2244@gmail.com",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "name": "thi",
+      "email": "levietthi43@gmail.com",
+      "password": "123456",
+      "id": 3
+    },
+    {
+      "name": "Product AA",
+      "email": "quanlvph2244@gmail.com",
+      "password": "123456",
+      "id": 4
     }
   ]
 }
